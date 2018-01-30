@@ -1,1 +1,1 @@
-puts line = gets.chomp.capitalize
+puts line = gets.chomp.swapcase
