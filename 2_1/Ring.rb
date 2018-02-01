@@ -26,4 +26,4 @@ end
 # puts (s * 2).include?(p) ? "Yes" : "No"
 
 #2
-# puts (gets.chomp*2).include?(gets.chomp)?"Yes":"No"
+# puts (gets.chomp*2).include?(gets.chomp) ? "Yes" : "No"
