@@ -10,5 +10,13 @@ while (t_line = gets.chomp) != "END_OF_TEXT"
 end
 puts count
 
-
+#1
+# w_line = gets.chomp
+# n = []
+# while (line = gets.chomp) != "END_OF_TEXT"
+#   m = line.downcase.split.count(w_line)
+#   n << m
+# end
+# puts n
+# puts n.inject(:+)
 
