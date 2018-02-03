@@ -12,3 +12,10 @@ while (al_line = gets.chomp) != "-" do
   }
   puts al_line
 end
+
+#1
+# while (n = gets.chomp) != '-'
+#   gets.to_i.times {n += n.slice!(0, gets.to_i) }
+#   puts n
+# end
+
