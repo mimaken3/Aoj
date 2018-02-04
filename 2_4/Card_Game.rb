@@ -15,5 +15,15 @@ n.times do
   end
 
 end
-
 puts "#{taro_point} #{hanako_point}"
+
+#1
+# taro_point,hanako_point = 0, 0
+# gets.to_i.times{
+#   case gets.split.inject(:<=>)
+#   when -1; hanako_point += 3
+#   when 0;  taro_point   += 1; hanako_point += 1
+#   when 1;  taro_point   += 3
+#   end
+# }
+# puts "#{taro_point} #{hanako_point}"
