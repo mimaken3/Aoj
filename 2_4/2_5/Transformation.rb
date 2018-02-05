@@ -38,3 +38,21 @@ gets.to_i.times {
 ans_arr.each do |str|
   puts str
 end
+
+#1
+# line = gets.chomp
+# n = gets.to_i
+# n.times {
+#   cmd = gets.split
+#   first_num = cmd[1].to_i
+#   end_num  = cmd[2].to_i
+#   case cmd[0]
+#   when "print"
+#     puts "#{line[first_num..end_num]}"
+#   when "reverse"
+#     line[first_num..end_num] = line[first..end_num].reverse
+#   when "replace"
+#     line[first_num..end_num] = cmd[3]
+#   end
+# }
+#
